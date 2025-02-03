@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.css';
 	import Hand from '$lib/components/Hand/Hand.svelte';
 	import BettingFlow from '$lib/components/BettingFlow/BettingFlow.svelte';
 	import type { Card, DrawCardsResponse } from '$lib/types';
