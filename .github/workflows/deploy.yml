@@ -23,6 +23,7 @@ jobs:
         run: npm install
 
       - name: build
+        working-directory: ./app
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
